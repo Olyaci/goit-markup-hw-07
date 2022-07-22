@@ -269,7 +269,6 @@ img {
 .activity__list {
   display: flex;
   justify-content: center;
-  flex-basis: calc((100%-60px) / 3);
 }
 
 .activity__item {
@@ -296,13 +295,13 @@ img {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.section-team {
+.team {
   background: var(--second-background);
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.section-team__title {
+.team__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -312,19 +311,19 @@ img {
   margin-bottom: 50px;
 }
 
-.section-team__list{
+.team__list{
   display: flex;
   justify-content: space-between;
 }
 
-.section-team__item {
+.team__item {
   background: var(--primary-background);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.section-team__name {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -334,7 +333,7 @@ img {
   margin-top: 30px;
 }
 
-.section-team__trade {
+.team__trade {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -344,18 +343,18 @@ img {
   margin-bottom: 16px;
 }
 
-.section-team__links-list {
+.team__links-list {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
 }
 
-.section-team__links-item {
+.team__links-item {
   display: flex;
   justify-content: center;
 }
 
-.section-team__links-icon {
+.team__links-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -369,9 +368,9 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-team__links-icon:hover,
-.section-team__links-icon:focus,
-.section-team__links-icon:active {
+.team__links-icon:hover,
+.team__links-icon:focus,
+.team__links-icon:active {
   background-color: var(--accent-color);
   fill: var(--primary-background);
 }
@@ -550,7 +549,7 @@ img {
   padding: 0 15px;
 }
 
-.footer__logo {
+.logo__footer {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -596,7 +595,7 @@ img {
   margin-left: 70px;
 }
 
-.footer__container-join-text {
+.join__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.7;
@@ -606,15 +605,15 @@ img {
   margin-bottom: 20px;
 }
 
-.footer__container-join-list {
+.join__list {
   display: flex;
 }
 
-.footer__container-join-item {
+.join__item {
   display: flex;
 }
 
-.footer__container-join-icon {
+.join__icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -628,9 +627,9 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__container-join-icon:hover,
-.footer__container-join-icon:focus,
-.footer__container-join-icon:active {
+.join__icon:hover,
+.join__icon:focus,
+.join__icon:active {
   background-color: var(--accent-color);
 }
 
@@ -638,7 +637,7 @@ img {
   margin-left: auto;
 }
 
-.footer__container-sign-label {
+.sign__label {
   display: block;
   font-weight: 700;
   font-size: 14px;
@@ -649,7 +648,7 @@ img {
   margin-bottom: 20px;
 }
 
-.footer__container-sign__input {
+.sign__input {
   box-sizing: border-box;
   width: 358px;
   height: 50px;
@@ -661,7 +660,7 @@ img {
   padding: 15px 16px;
 }
 
-.footer__container-sign__input::placeholder {
+.sign__input::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -671,7 +670,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer__container-sign-btn {
+.sign__btn {
   width: 200px;
   height: 50px;
   background: var(--accent-color);

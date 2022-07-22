@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    background-color: $dark-background;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+  
+.footer__container {
+    display: flex;
+    align-items: baseline;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer_container-address {
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.footer__container-join {
+    margin-left: 70px;
+}
+  
+.footer__container-sign{
+    margin-left: auto;
+}
