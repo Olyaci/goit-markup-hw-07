@@ -57,7 +57,7 @@
     align-items: center;
     margin-left: auto;
 }
-  
+
 .header__contact {
     font-weight: 500;
     font-size: 14px;
@@ -71,7 +71,7 @@
         color: $accent-color;
     }
 
-    &:hover + .header__icon:hover {
+    &:hover + .header__icon {
         fill: $accent-color;
         color: $accent-color;
     }
